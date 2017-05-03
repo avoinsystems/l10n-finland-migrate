@@ -34,7 +34,6 @@ Odoo Community Association (OCA)
     'depends': [
         'account',
         'account_chart',
-        'base_vat',
         'base_iban'
     ],
     'data': [
