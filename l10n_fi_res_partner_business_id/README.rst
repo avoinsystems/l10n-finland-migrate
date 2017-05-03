@@ -2,16 +2,11 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-======================
-Finnish Account Ledger
-======================
+===========================
+Partner Finnish Business ID
+===========================
 
-Generic account ledger and journal.
-
-Features
-========
-* Adds a generic account journal report, that lists account moves by date
-* Adds a generic account ledger report, that lists account moves by account
+Add a Finnish business id for partners
 
 Installation
 ============
@@ -30,15 +25,13 @@ Known issues / Roadmap
 ======================
 \-
 
-Bug Tracker
-
 Credits
 =======
 
 Contributors
 ------------
 
-* Jarmo Kortetjärvi <jarmo.kortetjarv@tawasta.fi>
+* Jarmo Kortetjärvi <jarmo.kortetjarvi@tawasta.fi>
 
 Maintainer
 ----------

@@ -43,4 +43,4 @@ Maintainer
    :alt: Oy Tawasta OS Technologies Ltd.
    :target: http://tawasta.fi/
 
-This module is maintained by Oy Tawasta OS Technologies Ltd..
+This module is maintained by Oy Tawasta OS Technologies Ltd.

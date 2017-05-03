@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+
+		<record id="view_partner_form" model="ir.ui.view">
+			<field name="name">view.partner.form.finnish.business.id</field>
+			<field name="model">res.partner</field>
+			<field name="inherit_id" ref="base.view_partner_form" />
+			<field name="arch" type="xml">
+
+				<!-- TODO: better view (div, one attrs) -->
+				<field name="category_id" position="before">
+					<label for="business_id"
+						   class="oe_edit_only"
+						   attrs="{'invisible': ['|', ('is_company', '=', False)]}"
+					/>
+					<h2 attrs="{'invisible': ['|', ('is_company', '=', False)]}">
+						<field
+								name="business_id"
+								placeholder="Business id (1234567-1)"
+
+						/>
+					</h2>
+				</field>
+
+			</field>
+		</record> 
+
+	</data>
+</openerp>

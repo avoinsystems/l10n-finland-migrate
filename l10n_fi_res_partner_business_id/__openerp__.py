@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Author: Oy Tawasta OS Technologies Ltd.
-#    Copyright 2015 Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
+#    Copyright 2016 Oy Tawasta OS Technologies Ltd. (http://www.tawasta.fi)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -20,19 +20,27 @@
 ##############################################################################
 
 {
-    'name': 'Finnish Payment Terms',
-    'summary': 'Common Finnish invoice payment terms',
-    'version': '8.0.0.3.1',
-    'category': 'Localization',
-    'website': 'https://odoo-community.org/',
-    'author': 'Oy Tawasta Technologies Ltd., Odoo Community Association (OCA)',
+    'name': 'Partner Finnish Business ID',
+    'summary': 'Add a Finnish business id for partners',
+    'version': '8.0.0.4.1',
+    'category': 'CRM',
+    'website': 'http://www.tawasta.fi',
+    'author': 'Oy Tawasta Technologies Ltd.',
     'license': 'AGPL-3',
     'application': False,
     'installable': True,
+    'external_dependencies': {
+        'python': [],
+        'bin': [],
+    },
     'depends': [
-        'account',
+        'crm',
     ],
     'data': [
-        'data/payment_terms_finnish.xml',
+        'data/business_id_init.xml',
+
+        'views/res_partner.xml',
+    ],
+    'demo': [
     ],
 }

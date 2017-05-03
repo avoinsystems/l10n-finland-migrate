@@ -18,3 +18,4 @@ Available addons
 [l10n_fi_payment_terms](l10n_fi_payment_terms/) | Common Finnish invoice payment terms
 [l10n_fi_product_administrative](l10n_fi_product_administrative/) | Finnish Administrative Products
 [l10n_fi_product_authority](l10n_fi_product_authority/) | Finnish Authority Products
+[l10n_fi_res_partner_business_id](l10n_fi_res_partner_business_id/) | Add a Finnish business id for partners
